@@ -1,3 +1,4 @@
+
 body {
     margin: 0%;
     padding: 0%;
@@ -5,6 +6,7 @@ body {
 }
 .main-container {
     background-color: #F08080;
+    display: flex;
     justify-content: space-between;
     margin-top: auto;
     animation-name: mai123;
@@ -15,29 +17,36 @@ body {
 .main-tittle {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 ul{ 
     display: flex;
+    border-radius: 6px;
+    background-color: #8881e2;
     
 }
 li {
     list-style-type: none;
-    margin: 6px;
+    
     
 }
 li a {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
+    margin: auto 8px;
 }
 .container {
-    background-image: url(nuta.jpg);
+    background-image: url(../imagunes/nuta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
     height: 500px;
 }
-.joto {
-    width: 350px;
+.text {
+    text-align: center;
+    font-size: 32px;
 }
 img {
     width: 200px;
