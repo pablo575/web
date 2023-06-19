@@ -1,5 +1,5 @@
 
-body {
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -7,15 +7,10 @@ body {
 .main-container {
     background-color: #1b2394;
     display: flex;
-    justify-content: space-around;
-    margin-top: auto;
-    animation-name: mai123;
-    animation-duration: 8s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
+    justify-content: space-between;
 }
 .main-tittle {
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
 }
@@ -34,17 +29,19 @@ li {
 }
 li a {
     text-decoration: none;
-    color: #fff;
+    color: #0a0a0a;
     font-size: 24px;
     margin: auto 8px;
+    border-radius: 5px;
+    background-color: #f3e6e6;
+    height: 20px;
+    width: 100px
 }
 .container {
-    background-image: url(../web/imaguenes/library-gb1d97abdb_1280.jpg);
+    background-image: url(/imaguenes/library-gb1d97abdb_1280.jpg);
   background-size: cover;
   width: auto;
   height: 500px;
-}
-.ima {
 }
 .text {
     text-align: center;
@@ -57,18 +54,12 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
 }
-i { 
-    position: relative;
-    left: 12px;
-    width: 40px;
-    height: auto;
-    color: floralwhite;
-    }
 
-.dos p {
+.text p {
     font-size: 32px;
-   color: #fff;
+   color: #080808;
 }
 .enlace {
     color: #fff;
@@ -87,7 +78,7 @@ i {
     color: #fff;
     padding: 6px;
 }
- .foto div{
+ .foto div {
      border-radius: 3px;
      background-color: rgb(88, 75, 73);
      width: 400px;
@@ -100,13 +91,13 @@ i {
     width: max-content;
  }
  footer{
-     background-color: thistle;
-     color: rgb(7, 53, 90);
+     background-color: rgb(10, 10, 10);
+     color: rgb(209, 218, 226);
      font-size: 20px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      text-align: center;
      position: relative;
-     top: 170px;
+     top: 120px;
  }
  @keyframes mai123 {
     
