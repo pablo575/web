@@ -7,6 +7,7 @@
 .main-container {
     background-color: #1b2394;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .main-tittle {

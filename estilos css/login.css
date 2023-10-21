@@ -1,0 +1,14 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.row-contain{
+    background-image: url(/imaguenes/WhatsApp\ Image\ 2023-10-15\ at\ 8.25.14\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10% 20% 50%;
+}
