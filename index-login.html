@@ -4,34 +4,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/estilos css/login.css">
+  <script src="/archi.js/js.js"></script>
   <title>login</title>
 </head>
 <body>
-    <div class="row-row">
-      <div class="row-contain">
-        <div class="col-tex">
-          <p class="tex">bienvenido</p>
-          <p class="tex">bienvenido de nuevo te echabamos de menos</p>
-        </div>
-      <div class="col-contain">
-        <div class="col-login">
-          <div class="col-inpot">
-            <p class="tex1">usuario</p>
-          <input type="text" class="login" id="login">usuario</input>
-        </div>
-        <div class="col-password" id="password">
-          <p class="text2">contraseña</p>
-          <input type="password">password</input>
-          <a href="#" class="contra"> has olvidado tu contraseña </a>
+  <section class="container-fluid m-auto">
+    <div class="row-xl-12 ">
+      <div class="col-xl-12 text-center">
+        <div class="col-xl-12">
+          <p class="col-xl-12 h1 p-2">Bienvenido: </p>
+          <p class="col-xl-12 h3 mb-5">Bienvenido De Nuevo Te Echabamos De Menos. </p>
         </div>
       </div>
-        <div class="footer">
-          <img src="/imaguenes/WhatsApp Image 2023-10-16 at 5.38.52 AM.jpeg" alt="" srcset="">
-
+      <div class="col-xl-12  justify-contem-center ">
+          <p class="col-xl-6 h3 text-center m-auto">Usuario</p>
+        <div class="col-xl-12 text-center">
+          <input type="text" class="col-xl-5"  placeholder="usuario" id="username"></input>
         </div>
       </div>
-
+      <div class="col-xl-12 text-center" >
+        <p class="col-xl-12 h4 m-2">Contraseña</p>
+        <div class="col-xl-12 text-center">
+          <input type="password" class="col-xl-5" placeholder="password " id="password"></input>
+        </div>
+      </div>
+      <div class="col-xl-12 mt-5 text-center">
+        <button type="button" onclick="login()">Ingresar</button>
+      </div>
+      <div class="col-xl-12 h4 text-center">
+        <a href="#" class="col-xl-12" id="pass"> Has olvidado tu contraseña </a>
+      </div>
     </div>
+        <div class="row-xl-12 h3 text-center bg-secondary">
+          <p class="col xl-12"> No copi@ringth</p>
+          <p class="col xl-12"> ms.morales30@ciaf.edu.co</p>
+        </div>
+  </section>
 </body>
 </html>

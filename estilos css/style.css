@@ -1,105 +1,13 @@
 
-* {
-    margin: 0%;
-    padding: 0%;
+body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-.main-container {
-    background-color: #1b2394;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.main-tittle {
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-}
+  }
 
-ul{ 
-    display: flex;
-    align-items: center;
-    border-radius: 6px;
-    background-color: #77df57;
-    
-}
-li {
-    list-style-type: none;
-    
-    
-}
-li a {
-    text-decoration: none;
-    color: #0a0a0a;
-    font-size: 24px;
-    margin: auto 8px;
-    border-radius: 5px;
-    background-color: #f3e6e6;
-    height: 20px;
-    width: 100px
-}
-.container {
+.img {
     background-image: url(/imaguenes/library-gb1d97abdb_1280.jpg);
   background-size: cover;
   width: auto;
   height: 500px;
-}
-.text {
-    text-align: center;
-    font-size: 32px;
-    color: #fff;
-}
-
-.intro {
-    background-color: #261f8e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-}
-
-.text p {
-    font-size: 32px;
-   color: #080808;
-}
-.enlace {
-    color: #fff;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.foto {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 600px;
-    justify-items: center;
-}
-.isa {
-    font-size: 32px;
-    color: #fff;
-    padding: 6px;
-}
- .foto div {
-     border-radius: 3px;
-     background-color: rgb(88, 75, 73);
-     width: 400px;
-     height: auto;
-     margin: 6px;
-     text-align: center;
-     justify-content: center;
- }
- iframe {
-    width: max-content;
- }
- footer{
-     background-color: rgb(10, 10, 10);
-     color: rgb(209, 218, 226);
-     font-size: 20px;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-align: center;
-     position: relative;
-     top: 120px;
- }
- @keyframes mai123 {
-    
 }

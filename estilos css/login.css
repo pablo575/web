@@ -3,12 +3,99 @@
     margin: 0%;
     box-sizing: border-box;
 }
-.row-contain{
-    background-image: url(/imaguenes/WhatsApp\ Image\ 2023-10-15\ at\ 8.25.14\ PM.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap:10% 20% 50%;
-}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+  
+ .container-fluid {
+    background-color: #519ae4; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d; /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .h1 {
+    font-size: 2.5rem;
+  }
+  
+  .h3 {
+    font-size: 1.5rem;
+  }
+  
+  .h4 {
+    font-size: 1.2rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 5px;
+  }
+  
+  .m-auto {
+    margin: auto;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .mt-5 {
+    margin-top: 5px;
+  }
+  
+  .p-2 {
+    padding: 10px;
+  }
+  
+  .col-xl-12 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .col-xl-6 {
+    width: 50%;
+  }
+  
+  .col-xl-5 {
+    width: 41.66666667%; /* 5/12 of the container width for better responsiveness */
+  }
+  
+  button {
+    background-color: #007bff; /* Cambia el color del botón según tus preferencias */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Cambia el color del botón al pasar el ratón */
+  }
+  
+  input {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #pass {
+    color: #007bff; /* Cambia el color del enlace según tus preferencias */
+    text-decoration: none;
+  }
+  
+  #pass:hover {
+    text-decoration: underline;
+  }     
